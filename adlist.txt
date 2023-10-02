@@ -1,0 +1,24 @@
+! Whitelisting only the most PITA domains
+@@||paypal.com^
+@@||verizon.com^
+@@||usajobs.gov^
+@@||comcast.com^
+@@||xfinity.com^
+
+@@||governmentjobs.com^
+@@||clearancejobs.com^
+!End typical rules
+
+
+! Start granular fixes
+! Fix vidstream and mcloud in-player ads/pause overlay ads
+vidstream.pro##div:has(img[src="assets/bn/movie.jpg"])
+mcloud.to##div:has(img[src="assets/bn/movie.jpg"])
+! End granular fixes
+
+! Begin Generic Filtering Rules
+
+! Block annoying GDPR Cookie Notices
+##.c--gdpr-message
+
+! End generic Filtering Rules
