@@ -19,7 +19,7 @@ mcloud.to##div:has(img[src="assets/bn/movie.jpg"])
 ! Block youtube's "stop adblocking" message
 www.youtube.com##ytd-popup-container.ytd-app.style-scope
 www.youtube.com##.hide-skeleton.ytd-page-manager.style-scope
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+
 
 ! End granular fixes
 
