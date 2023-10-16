@@ -18,6 +18,13 @@ mcloud.to##div:has(img[src="assets/bn/movie.jpg"])
 
 ! Block youtube's "stop adblocking" message
 www.youtube.com##ytd-popup-container.ytd-app.style-scope
+youtube.com##tp-yt-iron-overlay-backdrop.opened:nth-child(59)
+youtube.com##tp-yt-iron-overlay-backdrop.opened:nth-child(60)
+youtube.com##tp-yt-iron-overlay-backdrop.opened:last-child
+youtube.com##tp-yt-iron-overlay-backdrop.opened:nth-child(58)
+youtube.com##ytd-app:nth-child(16) > ytd-popup-container.style-scope.ytd-app:nth-child(9) > tp-yt-paper-dialog.style-scope.ytd-popup-container:nth-child(2)
+youtube.com##tp-yt-iron-overlay-backdrop.opened:nth-child(57)
+youtube.com##ytd-app:nth-child(16) > ytd-popup-container.style-scope.ytd-app:nth-child(9) > tp-yt-paper-dialog.style-scope.ytd-popup-container:last-child
 
 
 ! End granular fixes
